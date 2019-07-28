@@ -1,0 +1,28 @@
+{
+    "name": "marketplacekit/stripe",
+    "description": "",
+    "authors": [
+        {
+            "name": "MarketplaceKit Team",
+            "email": "contact@marketplacekit.com"
+        }
+    ],
+    "require": {
+        "stripe/stripe-php": "^6.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Stripe\\Providers\\StripeServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Stripe\\": ""
+        }
+    }
+}

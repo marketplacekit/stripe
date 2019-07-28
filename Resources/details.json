@@ -1,0 +1,12 @@
+{
+  "name": "Stripe",
+  "key": "stripe_connect_custom",
+  "display_name": "Credit Card",
+  "description": "Adding a bank account will enable users to pay you using their credit/debit card.",
+  "payment_instructions": "Pay using Visa, MasterCard, American Express, JCB, Discover, and Diners Club",
+  "position": 0,
+  "is_enabled": 1,
+  "icon": "https://marketplace-kit.s3.amazonaws.com/payment-logos/stripe.png",
+  "required_keys": ["publishable_key", "secret_key"],
+  "secret_keys": ["secret_key"]
+}
